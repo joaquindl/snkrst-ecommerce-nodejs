@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#menuinfo {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+.search-container {
+    border: none;
+    align-content: center;
+}
+
+
+
+
+/* PRIMER SLIDE */
+
+.primera-pagina {
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    padding-bottom: 125px;
+    width: 100%;
+    height: 100vh;  
+}
+
+/* SEGUNDO SLIDE */
+.segunda-pagina {
+    background-image: url(/img/portadamobilenike@.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    padding-bottom: 125px;
+    width: 100%;
+    height: 100vh;  
+}
+
+#new-in-p {
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#bottom-menu {
+    text-decoration: none;
+    padding: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    border: none;
+    text-align: center;
+    align-content: center;
+}
+
+
+/* TERCER SLIDE */
+.tercera-pagina {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+#new-in-suscribe {
+    color: black;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* MENÚ FONDO INICIO */
+.cat-pie {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    justify-content: space-evenly;
+}
+#triple-menu {
+    padding-top: 200px;
+}
+
+
+/**Footer Mobile**/
+.fondo-footer {
+    background-color: #b4b5b4;
+}
+
+.redes-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: .75rem;
+}
+
+.logo-footer-mobile {
+    width: 7rem;
+}
+
+.copyright-footer-mobile {
+    font-size: .5rem;
+}
+
+
+@media (min-width: 768px) {
+    footer {
+        margin-top: 3vh;
+    }
+    
+    .mapa-del-sitio {
+        margin-bottom: 2rem;
+    }
+    
+    
+    /**Footer**/
+    .logo-footer {
+        margin-top: 4vh;
+    }
+    
+    .logo-footer-grande {
+        width: 50%;
+    }
+    
+    .copyright-footer-grande {
+        font-size: .6rem;
+    }
+    
+    .terminos-condiciones a {
+        font-size: .75rem;
+    }
+    
+    .terminos-condiciones p {
+        font-size: .75rem;
+        padding: 0 1rem;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 500px){
+    #carritonav{
+        padding: 10px;
+        }
+        #carritonav a{
+            padding-right: 10px;
+            }
+            #carritonav span{
+                font-size: 3rem;
+                }
+        
+        .search-container {
+            display: none;
+        }
+        
+}
+@media (min-width: 500px) {
+.primera-pagina {
+    background-image: url(/img/nikegif1.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    padding-bottom: 125px;
+    width: 100%;
+    height: 100vh;  
+}
+
+/* SEGUNDO SLIDE */
+.segunda-pagina {
+    background-image: url(/img/addidasloop.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    padding-bottom: 125px;
+    width: 100%;
+    height: 100vh;  
+}
+}

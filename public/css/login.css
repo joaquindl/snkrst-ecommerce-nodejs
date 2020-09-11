@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.form-datos-envio-input{
+    border-radius: black;
+    }
+    .datos-envio-input {
+        background-color: #F2F3F2;
+        border: black;
+        border-radius: 1px;
+        width: 60%;
+    }
+    .datos-envio-input::placeholder {
+        font-size: .65rem;
+        color:black;
+    }
+
+.ingresar button{
+    width: 60%;
+    font-size: .75rem;
+}
+.ingresar a{
+    margin-top: 2vh;
+    width: 60%;
+    font-size: 1rem;
+}
+.ruta{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+ }
+ .ruta a{
+    text-decoration: none;
+ }

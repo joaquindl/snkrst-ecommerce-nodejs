@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <%- include('../partials/head.ejs') %>
+  <link rel="stylesheet" href="/css/navbar.css">   
+  <link rel="stylesheet" href="/css/newsletter.css"> 
+</head>
+
+<body>
+  <header>
+    <%- include('../partials/navBar.ejs') %>
+  </header>
+  <div class="conteiner">
+    
+    <div class="row">
+      <h1 class="col-8 mx-auto mb-5 py-4 pb-3 text-center border-bottom mt-5">SUSCRIBETE AL NEWSLETTER</h1>
+    </div>
+    
+    <!--texto-->
+    <main>
+      <p>Suscribete a nuestro newsletter para recibir  nuestras noticias <br>semanales e información sobre nuevas tendencias</p>
+      
+      <!--Email-->
+      <form>
+        <div class="form-group mt-4">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+        </div>
+        
+        
+        <!--Estilos-->
+        <div class="estilos">
+          <h3> Estilos preferidos:</h3><br>
+          <div class="padre-generos-estilos">
+            <div class="form-check px-5">
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..."> Mujer 
+            </div>
+            <div class="form-check px-5">
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..."> Varón
+            </div>
+            <div class="form-check px-5">
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..."> Niño
+            </div>
+            <div class="form-check px-5">
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..."> Niña
+            </div>
+          </div>
+        </div>
+        <!--suscribir-->
+        <div class="suscribir">
+          
+          
+          <button type="button" class="btn btn-dark pb-1 pt-0">SUSCRIBIRSE</button>
+          <p id="info">*al enviar esta información , usted acepta nuestra política de privacidad.</p>
+        </div>
+      </form>
+      
+      
+      <!--ruta-->
+      <div class="ruta">
+        <a style="color: black;" href="/index">SNEAKEREST  |  NEWSLETTER</a>
+      </div>
+      
+    </main>
+  </div>
+  <!--Footer-->
+  <%- include('../partials/footer.ejs') %>
+</body>
+
+<!--Footer-->
+
+</html>

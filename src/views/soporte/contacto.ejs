@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <%- include('../partials/head.ejs') %>
+  <link rel="stylesheet" href="/css/navbar.css">  
+</head>
+
+<body>
+  
+  <header>
+    <%- include('../partials/navBar.ejs') %>
+  </header>
+  
+  <main class="container-fluid mt-3">
+    <div class="row">
+      <h2 class="col-8 mx-auto mb-4 pt-4 pb-3 text-center border-bottom">ATENCIÓN AL CLIENTE</h2>
+    </div>
+    <section class="row mt-5 mb-5 pb-5">
+      <!--Modals-->
+      <div class="col-12 d-flex justify-content-center mb-5 pb-5">
+        <!--Modal email-->
+        <div class="col-6 mx-auto px-auto d-flex justify-content-center">
+          <!-- Button trigger modal -->
+          <button type="button" class="col-10 btn btn-dark rounded-0 mx-auto px-auto" data-toggle="modal" data-target="#exampleModal">
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fas fa-envelope-square"></i>
+              <p class="pl-3 mb-0">Email</p>
+            </div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Por favor escriba su mensaje</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <textarea name="contacto" id="contacto-email" cols="53" rows="10"></textarea>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary rounded-0" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-white border rounded-0">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal redes sociales-->
+        <div class="col-6 mx-auto px-auto d-flex justify-content-center">
+          <!-- Button trigger modal -->
+          <button type="button" class="col-10 btn btn-dark rounded-0 mx-auto px-auto" data-toggle="modal" data-target="#exampleModal2">
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fas fa-user-friends"></i>
+              <p class="pl-3 mb-0">Redes Sociales</p>
+            </div>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">¡Visítenos!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body col-12 d-flex justify-content-around">
+                  <div class="text-center col-4">
+                    <i class="fab fa-facebook-f"></i>
+                    <a href="https://www.facebook.com" class="text-decoration-none text-body"><h5>Facebook</h5></a>
+                  </div>
+                  <div class="text-center col-4">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com" class="text-decoration-none text-body"><h5>Instagram</h5></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!--ruta-->
+    <div class="ruta text-center mt-5 pt-5 pb-4">
+      <a class="text-body text-decoration-none" href="/">SNKRST  | </a>
+      <a href="#" class="text-body text-decoration-none">CONTACTO</a>
+    </div>
+  </main>
+  
+  <!--Footer-->
+  <%- include('../partials/footer.ejs') %>
+  
+</body>
+
+
+</html>

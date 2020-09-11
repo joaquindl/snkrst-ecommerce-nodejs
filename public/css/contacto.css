@@ -1,0 +1,267 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10vh;
+}
+h3{
+    text-align: center;
+}
+
+h4{
+    width:50%;
+    font-size: 2.3rem;
+}
+h5{
+    font-size: 2rem;
+}
+
+/* Navbar  */   
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#menuinfo {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#carrito {
+    text-align: right;
+    align-self: right;
+    align-content: right;
+}
+
+.navbar {
+    align-content: right;
+}
+#carritonav{
+padding: 10px;
+}
+#carritonav a{
+    padding-right: 10px;
+    }
+    #carritonav span{
+        font-size: 3rem;
+        }
+
+.search-container {
+    border: none;
+    align-content: center;
+}
+
+
+/*main*/
+.card-header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-header1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn-block {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-envelope-square{
+font-size: 5vh;
+width: 45%;
+text-align: right;
+}
+.fa-user-friends{
+    font-size: 5vh;
+width: 45%;
+text-align: right;
+}
+.fa-facebook-f{
+    font-size: 3rem;
+}
+.fa-instagram{
+font-size: 3rem;
+}
+
+.facebook{
+    width: 100%;
+    display: flex;
+    flex-wrap: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+.instagram{
+    width: 100%;
+    display: flex;
+    flex-wrap: auto;
+    flex-direction: row;
+    margin-top: 1vh;
+    justify-content: center;
+}
+#mandarmail{
+    width: 100%;
+    display: flex;
+    flex-wrap: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ruta{  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+ }
+ .ruta a{
+    text-decoration: none;
+ }
+/*footer*/
+.fondo-footer {
+    background-color: #b4b5b4;
+}
+
+.redes-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: .75rem;
+}
+
+.logo-footer-mobile {
+    width: 7rem;
+}
+
+.copyright-footer-mobile {
+    font-size: .5rem;
+}
+
+@media (min-width: 768px) {
+    footer {
+        margin-top: 3vh;
+    }
+    
+    .mapa-del-sitio {
+        margin-bottom: 2rem;
+    }
+    
+    /**titulos**/
+    
+    /*section detalle*/
+    #article{
+        background-color: #E1DCDB;
+    }
+    /*crear producto*/
+    #crear{
+        background-color: #E1DCDB;
+    }
+    #editar{
+        background-color: #E1DCDB;
+    }
+    }
+    .form-group{
+        margin-top: 2vh;
+    }
+    /**Footer**/
+    footer{
+        margin-top: 30vh;
+    }
+    .logo-footer {
+        margin-top: 4vh;
+    }
+    
+    .logo-footer-grande {
+        width: 50%;
+    }
+    
+    .copyright-footer-grande {
+        font-size: .6rem;
+    }
+    
+    .terminos-condiciones a {
+        font-size: .75rem;
+    }
+    
+    .terminos-condiciones p {
+        font-size: .75rem;
+        padding: 0 1rem;
+        margin-bottom: 0;
+    }
+    @media (max-width: 500px){
+        #carritonav{
+            padding: 10px;
+            }
+            #carritonav a{
+                padding-right: 10px;
+                }
+                #carritonav span{
+                    font-size: 3rem;
+                    }
+            
+            .search-container {
+                display: none;
+            }
+            
+    }

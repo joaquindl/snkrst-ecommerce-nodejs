@@ -1,0 +1,75 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;    
+
+}
+.form-group{
+    align-items: center; 
+    width: 60%;;
+    height: 10vh;
+}
+.form-group input{
+    height: 4vh;
+    align-content: center;
+}
+.estilos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.estilos h3 {
+    font-size: 1.5rem;
+}
+
+.padre-generos-estilos {
+    width: ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suscribir{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.suscribir p{
+    padding-top: 7vh;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+.suscribir button{
+    margin-top: 5vh;
+    width: 40%;
+    height: 4vh;
+}
+.ruta{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+ }
+ .ruta a{
+    text-decoration: none;
+ }

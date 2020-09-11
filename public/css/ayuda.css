@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.ayuda-pagina {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ayuda-pagina h1 {
+    font-size: 6rem;
+}
+
+#datos {
+    padding-bottom: 50px;
+}
+
+#mapa {
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+#direccion {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .ayuda-pagina h1 {
+        font-size: 3rem;
+    }
+
+    #datos {
+        font-size: 1rem;
+        padding-bottom: 50px;
+    }
+
+    #direccion {
+        font-size: 1rem;
+        display: block;
+        padding-bottom: 50px;
+    }
+    
+    #mapa {
+        width: 100%;
+        display: none;
+        padding-bottom: 75px;
+    }
+}

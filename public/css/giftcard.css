@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* SLIDE GIFTCARD */
+.giftcard-pagina {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#parrafo {
+    padding-bottom: 50px;
+}
+
+#instrucciones {
+    padding-bottom: 50px;
+}
+
+#carta-regalo {
+    color: black;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tarjeta-regalo {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#imagen-tarjeta {
+    width: 100%;
+}
+
+#tarjeta-regalo h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#mapa {
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+#direccion {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    #carta-regalo {
+        color: black;
+        padding-top: 150px;
+        padding-bottom: 300px;
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #direccion {
+        font-size: 1rem;
+        display: block;
+        padding-bottom: 50px;
+    }
+    
+    #mapa {
+        width: 100%;
+        display: none;
+        padding-bottom: 75px;
+    }
+}

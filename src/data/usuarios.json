@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gonzalo",
+    "apellido": "Migliore",
+    "email": "Gonzalomigliore@gmail.com",
+    "contraseña": "$2a$10$qSaqyhxhQ9DO3iXujm8LMeU4eknEstYtljksTmJqIW/J.tMWOPSkS",
+    "genero": "Kids",
+    "imagen": "usuario-1596687711472.png",
+    "role": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Angel ",
+    "apellido": "Fuentes",
+    "email": "angelfuentes@gmail.com",
+    "contraseña": "$2a$10$NsFbmdS2bYFTV3yNGshrK.HNZL4CTDFRKH3qHHqC6.jGdv5nG.DlO",
+    "genero": "Men",
+    "imagen": "usuario-1596835418255.jpg",
+    "role": 1
+  },
+  {
+    "role": "9",
+    "email": "joaquin@gmail.com"
+  },
+  {
+    "nombre": "asd",
+    "apellido": "Dominguez Lodeiro",
+    "email": "asd123@gmail.com",
+    "contraseña": "$2a$10$YW7xwKYY2H.OEJTRcvUw3.tPR.bZvgiKKpG9lbWOT.qQRbPuwWTpm",
+    "genero": "Women",
+    "imagen": "usuario-1597522070698.jpg",
+    "role": 1
+  }
+]
