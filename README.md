@@ -42,15 +42,6 @@ Nuestro Scrum Master, 24 años, graduado de DH en marketing digital. Emprendedor
 
 ---
 
-+ ## ___Repositorio___
-- [https://github.com/GonzaloMigliore/grupo_8_sneakerest.git](https://github.com/GonzaloMigliore/grupo_8_sneakerest.git)
-
----
-
-+ ## ___Link de Trello___ 
-
-https://trello.com/b/Ryn6TDbX/tabla-de-tareas
-
 + ## ___Referentes___
     - [___Adidas___](https://www.adidas.com/us)
     
@@ -318,8 +309,5 @@ ___
 
 ## ___SNEAKEREST___
 
-+ ## ___Repositorio___
-- [https://github.com/GonzaloMigliore/grupo_8_sneakerest.git](https://github.com/GonzaloMigliore/grupo_8_sneakerest.git)
-
-+ ## ___DataBase___
++ ## ___Diagrama relacional de base de datos___
 - [https://app.dbdesigner.id?action=open&shared=public&uuid=75768fbd-3fad-416b-ba5d-9a6c507766c7]
